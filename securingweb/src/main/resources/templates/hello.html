@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Page</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Hello, User!</h1>
+<p>Chào mừng bạn đã đăng nhập thành công.</p>
+
+<p><a th:href="@{/home}">Trang chủ</a></p>
+<p><a th:href="@{/admin}">Trang quản trị (chỉ Admin mới vào được)</a></p>
+<p><a th:href="@{/logout}">Đăng xuất</a></p>
+</body>
+</html>
